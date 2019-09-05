@@ -1,12 +1,12 @@
 ```js
-//import ReactModal from '@forrestjs/react-modal'
+import ReactModal from '@forrestjs/react-modal'
 import styled from 'styled-components'
 const ModalInner = styled.div`
     position: fixed;
     top: 10vh;
     left: 10vw;
     width: 70vw;
-    height: 70vh;
+    height: 50vh;
     background: white;
     padding: 5vh 5vw;
     border-radius: 10px;

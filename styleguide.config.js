@@ -3,6 +3,7 @@ const path = require('path')
 module.exports = {
     title: 'ForrestJS Styleguide',
     styleguideDir: 'docs',
+    serverHost: '0.0.0.0',
 
     /**
      * Include all the pure component examples here:
@@ -47,5 +48,8 @@ module.exports = {
      *
      * The trick is to simply provide this configuration back to Styleguidist.
      */
-    webpackConfig: require('react-scripts-rewired/config/webpack.config.dev.extend'),
+    webpackConfig: {
+        ...require('react-scripts-rewired/config/webpack.config.dev.extend'),
+        devServer: { disableHostCheck: true },
+    },
 }
