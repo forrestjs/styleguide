@@ -1,5 +1,12 @@
+Use `ReactModal` to display optional content from a `React Portal` and
+apply some **enter/leave animations** to it.
+
+It's a classic modal thingy, but it also supports gestures to provide
+a decent experience when you want to **swipe to close on mobile**.
+
 ```js
 import ReactModal from '@forrestjs/react-modal'
+
 import styled from 'styled-components'
 const ModalInner = styled.div`
     position: fixed;

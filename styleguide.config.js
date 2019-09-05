@@ -10,6 +10,7 @@ module.exports = {
      */
     components: [
         'src/components/ReactModal/ReactModal.jsx',
+        'src/components/ReactStackLayout/ReactStackLayout.jsx',
     ],
 
     /**

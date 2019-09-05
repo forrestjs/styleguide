@@ -38,6 +38,7 @@
   "dependencies": {
     "@forrestjs/package-universal": "3.5.0",
     "@forrestjs/react-modal": "^3.6.0",
+    "@forrestjs/react-stack-layout": "^3.7.0",
     "react-spring": "^8.0.27",
     "react-use-gesture": "^5.2.4",
     "styled-components": "^4.3.2"
